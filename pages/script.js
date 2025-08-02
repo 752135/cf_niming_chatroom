@@ -90,7 +90,7 @@ function fetchUserInfo() {
 }
 
 function sendUserInfo(username, latitude, longitude, ipAddress, timestamp) {
-    fetch('https://api.bhb.us.kg/api/name', {
+    fetch('https://chat911.kelerst.ggff.net/api/name', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -343,3 +343,4 @@ document.addEventListener('click', (event) => {
         noticePopup.style.display = 'none'; // 关闭公告栏
     }
 });
+
